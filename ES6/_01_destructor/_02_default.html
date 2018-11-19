@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6解构之默认值</title>
+</head>
+<body>
+<script>
+    function fn() {
+        [...arguments].forEach((v, i) => {
+            v()
+        })
+    }
+</script>
+<script>
+    // 1.默认值
+    fn(() => {
+        let [a = 1, b] = [, 3]
+        console.log(a, b) // 1,3
+
+        try {
+            let [c = 1] = undefined
+            console.log(c)
+        } catch (E) {
+            console.log("undefind不具备iterator接口")
+        }
+    })
+    // 表达式默认值
+    fn(() => {
+        function c() {
+            console.log('aa')
+            return 3
+        }
+
+        let [a = 1, b = c()] = [, 4]
+        console.log(a, b)
+    })
+</script>
+</body>
+</html>

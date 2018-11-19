@@ -14,14 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_01_array.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_01_destructor/_01_array.html">
+      <file leaf-file-name="_02_default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_01_destructor/_02_default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="46" column="6" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="46" selection-end-column="6" />
+            <state relative-caret-position="440">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#242#258#0" />
               </folding>
             </state>
           </provider>
@@ -31,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="528">
-                <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <first_editor relative-caret-position="572">
+                <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
               </first_editor>
               <second_editor />
             </state>
@@ -55,6 +54,7 @@
         <option value="$PROJECT_DIR$/01/test.js" />
         <option value="$PROJECT_DIR$/01/demo.html" />
         <option value="$PROJECT_DIR$/_01_destructor/_01_array.html" />
+        <option value="$PROJECT_DIR$/_01_destructor/_02_default.html" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -104,6 +104,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\learn-JavaScript\ES6\_01_destructor" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -136,12 +141,13 @@
       <updated>1540524676964</updated>
       <workItem from="1540524678969" duration="1282000" />
       <workItem from="1540865786590" duration="5538000" />
-      <workItem from="1542596622689" duration="6036000" />
+      <workItem from="1542596622689" duration="6110000" />
+      <workItem from="1542608323197" duration="1801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12856000" />
+    <option name="totallyTimeSpent" value="14731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="355" y="0" width="1151" height="966" extended-state="0" />
@@ -183,6 +189,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_01_destructor/_01_array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="46" column="6" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#261#410#0" />
+            <element signature="e#442#580#0" />
+            <element signature="e#612#730#0" />
+            <element signature="e#759#989#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="264">
+            <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -197,7 +227,10 @@
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#242#258#0" />
+            <element signature="e#261#410#0" />
+            <element signature="e#442#580#0" />
+            <element signature="e#612#730#0" />
+            <element signature="e#759#989#0" />
           </folding>
         </state>
       </provider>
@@ -222,17 +255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_01_destructor/_01_array.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="46" column="6" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="46" selection-end-column="6" />
-          <folding>
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#242#258#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/learn-java/01-jdbc/src/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -243,11 +265,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_01_destructor/_01_array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#261#410#0" />
+            <element signature="e#442#580#0" />
+            <element signature="e#612#730#0" />
+            <element signature="e#759#989#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_01_destructor/_02_default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
-            <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <first_editor relative-caret-position="572">
+            <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
           </first_editor>
           <second_editor />
         </state>

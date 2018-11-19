@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ES6解构</title>
+    <title>ES6数组解构</title>
 </head>
 <body>
 <script>
@@ -44,6 +44,24 @@
             * */
         }
         console.log(obj)
+    })
+    // Set解构进行解构
+    fn(() => {
+        let set = new Set([1, 2, 3, 4])
+        console.log(set) // Set(4) {1, 2, 3, 4}
+        console.log(...set) // 1 2 3 4
+    })
+    // 只要具备iterator接口都具备解构
+    fn(() => {
+        function* fibs() {  // generator函数语法
+            let a = 1;
+            let b = 1;
+            yield a;
+            yield b;
+        }
+
+        let fib = fibs();
+        console.log(...fibs())
     })
 </script>
 </body>
