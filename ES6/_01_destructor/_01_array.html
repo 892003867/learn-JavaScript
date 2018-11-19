@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6解构</title>
+</head>
+<body>
+<script>
+    function fn() {
+        [...arguments].forEach((v, i) => {
+            v()
+        })
+    }
+</script>
+<script>
+    // 1.数组的解构方式
+    fn(() => {
+        let arr1 = 1;
+        let arr2 = 2;
+        let [desArr1, desArr2] = [arr1, arr2]
+        console.log("数组的普通解构=" + desArr1, desArr2);
+    })
+    // 2.数组的嵌套解构
+    fn(() => {
+        let arr = [1, 2, [3, 4]];
+        let [darr1, darr2, [darr3, darr4]] = arr;
+        console.log("数组的嵌套解构=" + darr1, darr4)
+    })
+    // 3.嵌套数组的解构
+    fn(() => {
+        let arr = [1, 2, [3, 4]];
+        let [darr1, ...darr2] = arr;
+        console.log("数组的嵌套解构=" + darr2)
+    })
+    // 4.解构混入
+    fn(() => {
+        let arr = () => {
+            return {"a": 1}
+        }
+        let obj = {
+            ...arr() // 可以将arr的返回对象或者值解构到obj对象中
+            /*
+            * 结果：{a: 1}
+            * */
+        }
+        console.log(obj)
+    })
+</script>
+</body>
+</html>

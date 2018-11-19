@@ -14,23 +14,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="66">
-                <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="_01_array.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_01_destructor/_01_array.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="46" column="6" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="46" selection-end-column="6" />
+              <folding>
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#242#258#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="528">
+                <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -50,6 +54,7 @@
       <list>
         <option value="$PROJECT_DIR$/01/test.js" />
         <option value="$PROJECT_DIR$/01/demo.html" />
+        <option value="$PROJECT_DIR$/_01_destructor/_01_array.html" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -83,7 +88,7 @@
             <path>
               <item name="ES6" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES6" type="462c0819:PsiDirectoryNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
+              <item name="_01_destructor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -112,7 +117,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/01" />
+    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/_01_destructor" />
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.test.js" />
@@ -131,12 +136,12 @@
       <updated>1540524676964</updated>
       <workItem from="1540524678969" duration="1282000" />
       <workItem from="1540865786590" duration="5538000" />
-      <workItem from="1542596622689" duration="1024000" />
+      <workItem from="1542596622689" duration="5807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7844000" />
+    <option name="totallyTimeSpent" value="12627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="355" y="0" width="1151" height="966" extended-state="0" />
@@ -172,6 +177,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -181,10 +191,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01/demo.html">
+    <entry file="file://$PROJECT_DIR$/_01_destructor/_01_array.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#242#258#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -198,13 +212,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01/test.js" />
     <entry file="file://$PROJECT_DIR$/markdown/js/editormd.js" />
-    <entry file="file://$PROJECT_DIR$/01/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/learn-java/02-XML&amp;tomcat/src/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -215,11 +222,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_01_destructor/_01_array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="46" column="6" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#242#258#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <first_editor relative-caret-position="528">
+            <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
